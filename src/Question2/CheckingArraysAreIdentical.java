@@ -31,8 +31,8 @@ public class CheckingArraysAreIdentical {
             }
         }
 
-        boolean equalsOrNot = equals(arrayOne, arrayTwo);
-        if (equalsOrNot) {
+        boolean identical = equals(arrayOne, arrayTwo);
+        if (identical) {
             System.out.println("The two arrays are strictly identical");
         } else {
             System.out.println("The two arrays are not strictly identical");

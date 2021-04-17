@@ -22,8 +22,8 @@ public class Circle {
 
     @Override
     public String toString() {
-        return "Circle is of radius "+ radius+ " and it has an area of "+ 
-                area  + " and it's circumference is "+ circumference;
+        return "A Circle is of radius "+ radius+ "cm and it has an area of "+ 
+                area  + "sq cm and it's circumference is "+ circumference +"cm";
     }
     
     

@@ -23,8 +23,8 @@ public class Loan {
 
     @Override
     public String toString() {
-    return "The Mr/Ms" + name + " has applied for a loan of amount $ " + amount
-                + "and the Annual Payment Rate is  "
+    return "The Mr/Ms " + name + " has received a discover card which offers loan of amount $" + amount
+                + " and the Annual Payment Rate is  "
                 + APR + "%";
     }
 
